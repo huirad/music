@@ -2,12 +2,25 @@
 
 ## ALSA
 
+Determine sample rates
+
+https://www.spinics.net/linux/fedora/alsa-user/msg07230.html (https://sourceforge.net/p/alsa/mailman/message/22116734/)
+./hw_params hw:0,0
+./hw_params hw:1,0
+
 ## JACK
 
 ## pulseaudio
 
 ## Audacity
 
+
+## USB
+
+https://source.android.com/devices/audio/usb
+
+https://thewelltemperedcomputer.com/HW/USB_Audio.htm
+https://thewelltemperedcomputer.com/KB/USB.html
 
 
 # Gear: Audio Interfaces etc
