@@ -2,11 +2,13 @@
 
 ## ALSA
 
-Determine sample rates
 
-https://www.spinics.net/linux/fedora/alsa-user/msg07230.html (https://sourceforge.net/p/alsa/mailman/message/22116734/)
-./hw_params hw:0,0
-./hw_params hw:1,0
+https://alsa-project.org/wiki/Main_Page
+https://www.alsa-project.org/wiki/ALSA_User_Info
+
+
+
+
 
 ## JACK
 

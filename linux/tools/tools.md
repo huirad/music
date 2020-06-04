@@ -2,6 +2,55 @@ This directory contains some useful tools which I found on the Internet.
 Some of them are stored here as personal backup.
 The copyright remains of course at the original authors
 
+# /proc
+The /proc file system provides some basic information about the audio interfaces
+
+```
+~> cat /proc/asound/cards
+ 0 [PCH            ]: HDA-Intel - HDA Intel PCH
+                      HDA Intel PCH at 0xdf320000 irq 140
+ 1 [USB            ]: USB-Audio - Scarlett 2i2 USB
+                      Focusrite Scarlett 2i2 USB at usb-0000:00:14.0-2, high speed
+
+
+# Focusrite Scarlett 2i2
+~> cat /proc/asound/card1/stream0
+Focusrite Scarlett 2i2 USB at usb-0000:00:14.0-2, high speed : USB Audio
+
+Playback:
+  Status: Stop
+  Interface 1
+    Altset 1
+    Format: S32_LE
+    Channels: 2
+    Endpoint: 1 OUT (SYNC)
+    Rates: 44100, 48000, 88200, 96000, 176400, 192000
+    Data packet interval: 125 us
+
+Capture:
+  Status: Stop
+  Interface 2
+    Altset 1
+    Format: S32_LE
+    Channels: 2
+    Endpoint: 1 IN (SYNC)
+    Rates: 44100, 48000, 88200, 96000, 176400, 192000
+    Data packet interval: 125 us
+
+# built-in sound card
+~> cat /proc/asound/card0/codec#0 | head 
+Codec: Realtek ALC269VC
+Address: 0
+AFG Function Id: 0x1 (unsol 1)
+Vendor Id: 0x10ec0269
+Subsystem Id: 0x15587a02
+Revision Id: 0x100202
+No Modem Function Group found
+Default PCM:
+    rates [0x5f0]: 32000 44100 48000 88200 96000 192000
+    bits [0xe]: 16 20 24
+```
+
 
 # alsa-utils
 The 
@@ -125,13 +174,19 @@ See
 [here](https://www.mail-archive.com/alsa-user@lists.sourceforge.net/msg24794.html)
 and
 [there](https://www.spinics.net/linux/fedora/alsa-user/msg07230.html)
+or
+[there](https://sourceforge.net/p/alsa/mailman/message/22116734/)
 in the mailing list archives.
 
 It expects the device_name as optional parameter. 
 So you can call it like `./hw_params` or `./hw_params hw:0,0` or `./hw_params hw:1,0`.
 The numbers after "hw:" identify the card and the device as listed by `aplay -l`
+On device id's, see also
+[here](https://alsa-project.org/wiki/DeviceNames)
+or
+[there](https://superuser.com/questions/53957/what-do-alsa-devices-like-hw0-0-mean-how-do-i-figure-out-which-to-use)
 
-Example output (hw:0,0 is the built-int sound card of my laptop, hw:1,0 is the Focusrite Scarlett 2i2)
+Example output (hw:0,0 is the built-in sound card of my laptop, hw:1,0 is the Focusrite Scarlett 2i2)
 
 ```
 ~/sound> ./hw_params hw:0,0
