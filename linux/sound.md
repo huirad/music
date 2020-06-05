@@ -46,11 +46,16 @@ The [Wikipedia](https://en.wikipedia.org/wiki/Audacity_(audio_editor)) provides 
 
 
 ## USB audio
-
-https://source.android.com/devices/audio/usb
-
-https://thewelltemperedcomputer.com/HW/USB_Audio.htm
-https://thewelltemperedcomputer.com/KB/USB.html
+A brief overview on USB Digital Audio is given at
+[source.android.com](https://source.android.com/devices/audio/usb).
+Many more details are provided at 
+[thewelltemperedcomputer.com](https://thewelltemperedcomputer.com):
+[HW/USB_Audio](https://thewelltemperedcomputer.com/HW/USB_Audio.htm), 
+[KB/USB](https://thewelltemperedcomputer.com/KB/USB.html).
+The specs are available at 
+[usb.org](http://www.usb.org/):
+[UAC1](https://www.usb.org/sites/default/files/USB_AV_Specification_Rev_1.0.zip),
+[UAC2](https://www.usb.org/sites/default/files/Audio2.0_final.zip).
 
 
 # Gear: Audio Interfaces etc
