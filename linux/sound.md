@@ -35,10 +35,17 @@ or
 
 
 
-## Audacity
+## Audacity and other applications
+
+[Audacity](https://www.audacityteam.org/) is probably the easiest start to audio recording and processing.
+The [Wikipedia](https://en.wikipedia.org/wiki/Audacity_(audio_editor)) provides an overview on its features.
+
+[Ardour](https://ardour.org/) appears to be a quite powerful DAW (digital audio workstation).
+
+[Guitarix](https://guitarix.org/) could also be worth a look.
 
 
-## USB
+## USB audio
 
 https://source.android.com/devices/audio/usb
 
