@@ -11,7 +11,7 @@ An overview targetet for OpenSuSE users is available at
 
 
 
-## ALSA
+## ALSA, JACK, pulseaudio
 Advanced Linux Sound Architecture (ALSA) is the basic building block for Linux Audio.
 A good overview is provided at
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture).
@@ -27,8 +27,11 @@ or
 [st.com](https://wiki.st.com/stm32mpu/wiki/ALSA_overview)
 or
 [debianforum](https://wiki.debianforum.de/Audiokonfiguration)
+
+JACK is particularly targeted for low-latency audio processing. See
+[jackaudio.org/](https://jackaudio.org/)
 or
-[qjackctl](https://qjackctl.sourceforge.io/)
+[qjackctl](https://qjackctl.sourceforge.io/).
 
 
 
