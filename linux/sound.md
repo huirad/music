@@ -92,3 +92,13 @@ Some more technical discussions on related Focusrite Scarlett devices are provid
 [here](https://linuxmusicians.com/viewtopic.php?f=6&t=20669)
 and 
 [here](https://linuxmusicians.com/viewtopic.php?f=6&t=10142&p=37495#p32773).
+
+On OpenSuSE Leap 15.1 I had the issue that USB power of the Scarlett was always switched of after a few seconds due to the preconfigured USB autosuspend.
+I have not been able to solve this with a udev rule as proposed
+[here](http://blog.fredericbecker.de/udev.html).
+Instead I had to add  `usbcore.autosuspend=-1` to the kernel command line as proposed
+[here](https://unix.stackexchange.com/questions/91027/how-to-disable-usb-autosuspend-on-kernel-3-7-10-or-above).
+Some more related links: 
+[1](https://forum.manjaro.org/t/usb-audio-interface-not-staying-powered-on/23684/3)
+[2](https://www.kernel.org/doc/html/v4.13/driver-api/usb/power-management.html)
+[3](https://de.opensuse.org/SDB:Energiesparmanagement#USB-Energieverwaltung).
