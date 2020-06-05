@@ -7,23 +7,30 @@ More technical details are given at
 The fearless may even look at the Linux Kernel Sound Subsystem Documentation at
 [kernel.org](https://www.kernel.org/doc/html/latest/sound/index.html).
 An overview targetet for OpenSuSE users is available at 
-[opensuse/SDB:Sound_concepts](https://en.opensuse.org/SDB:Sound_concepts).
+[opensuse.org](https://en.opensuse.org/SDB:Sound_concepts).
 
 
 
 ## ALSA
+Advanced Linux Sound Architecture (ALSA) is the basic building block for Linux Audio.
+A good overview is provided at
+[en.wikipedia.org](https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture).
+
+For details, look at the project home page 
+[https://alsa-project.org](https://alsa-project.org/wiki/Main_Page)
+which e.g. provides an overview on the 
+[user space applications](https://www.alsa-project.org/wiki/ALSA_User_Info).
+
+More information is available e.g. at
+[volkerschatz.com](http://www.volkerschatz.com/noise/alsa.html)
+or
+[st.com](https://wiki.st.com/stm32mpu/wiki/ALSA_overview)
+or
+[debianforum](https://wiki.debianforum.de/Audiokonfiguration)
+or
+[qjackctl](https://qjackctl.sourceforge.io/)
 
 
-https://alsa-project.org/wiki/Main_Page
-https://www.alsa-project.org/wiki/ALSA_User_Info
-
-
-
-
-
-## JACK
-
-## pulseaudio
 
 ## Audacity
 
