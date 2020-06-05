@@ -71,10 +71,24 @@ is also sold in a
 [bundle with mic and headphones](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2-studio-0).
 It connects to a standard USB port and is also powered by USB.
 Almost all specific controls are accessible by HW knobs and buttons, so it will work also on Linux without specific software.
+
 Note that you should force it once out of USB MSD mode. The
 [manual](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Scarlett2i2%203rd%20Gen%20User%20Guide_EN.pdf)
 describes how this can be done. Note that the description in the 
 [german manual version](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Scarlett2i2%203rd%20Gen%20User%20Guide_DE.pdf)
 is slightly different. Try it out in doubt.
 
+A guide to use it with Audacity is provided
+[here](https://support.focusrite.com/hc/en-gb/articles/360000790265-Recording-with-your-Scarlett-2i2-2nd-Gen-in-Audacity-Windows-)
 
+Some Linux related user stories are provided
+[here](https://sanderson.band/2017/09/04/focusrite-scarlet-2i2-in-a-linux-home-studio/)
+and 
+[here](https://dragly.org/2014/01/12/focusrite-scarlett-2i2-flawlessly-working-on-ubuntu-with-jack/)
+and 
+[here](https://www.gaelanlloyd.com/blog/scarlett-2i2-usb-dac-and-debian-8/).
+
+Some more technical discussions on related Focusrite Scarlett devices are provided
+[here](https://linuxmusicians.com/viewtopic.php?f=6&t=20669)
+and 
+[here](https://linuxmusicians.com/viewtopic.php?f=6&t=10142&p=37495#p32773).
