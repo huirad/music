@@ -56,7 +56,10 @@ The specs are available at
 [usb.org](http://www.usb.org/):
 [UAC1](https://www.usb.org/sites/default/files/USB_AV_Specification_Rev_1.0.zip),
 [UAC2](https://www.usb.org/sites/default/files/Audio2.0_final.zip).
-
+Some more technical background is available 
+[here](https://www.edn.com/fundamentals-of-usb-audio/)
+and 
+[here](https://www.electronicdesign.com/technologies/embedded-revolution/article/21801786/achieving-bitperfect-usb-audio).
 
 # Gear: Audio Interfaces etc
 
