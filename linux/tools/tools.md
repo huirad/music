@@ -1,10 +1,13 @@
 This directory contains some useful tools which I found on the Internet.
 Some of them are stored here as personal backup.
-The copyright remains of course at the original authors
+The copyright remains of course at the original authors.
 
 # /proc
-The /proc file system provides some basic information about the audio interfaces
+The /proc file system provides some basic information about the audio interfaces.
+See 
+[kernel.org](https://www.kernel.org/doc/html/latest/sound/designs/procfile.html).
 
+Example output:
 ```
 ~> cat /proc/asound/cards
  0 [PCH            ]: HDA-Intel - HDA Intel PCH
