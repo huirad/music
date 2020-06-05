@@ -68,4 +68,13 @@ and
 The 
 [Focusrite Scarlett 2i2](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2)
 is also sold in a 
-[bundle with mic and headphones](https://focusrite.com/de/usb-audio-interface/scarlett/scarlett-2i2-studio-0)
+[bundle with mic and headphones](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2-studio-0).
+It connects to a standard USB port and is also powered by USB.
+Almost all specific controls are accessible by HW knobs and buttons, so it will work also on Linux without specific software.
+Note that you should force it once out of USB MSD mode. The
+[manual](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Scarlett2i2%203rd%20Gen%20User%20Guide_EN.pdf)
+describes how this can be done. Note that the description in the 
+[german manual version](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Scarlett2i2%203rd%20Gen%20User%20Guide_DE.pdf)
+is slightly different. Try it out in doubt.
+
+
